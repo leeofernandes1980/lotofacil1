@@ -1,2 +1,2 @@
 # lotofacil1
-gerador de combinações da lotof´cail
+gerador de combinações da lotofácil
