@@ -1,16 +1,17 @@
-# Lotofacil1 Project
+# Projeto Lotofacil1
 
-This project is focused on generating lottery combinations and analyzing the statistical properties of these combinations. It provides functionalities to count how often certain combinations have been drawn in past lotteries and generates combinations based on most frequently drawn numbers, even-odd distributions, and repetition patterns.
+Este projeto é focado na geração de combinações de loteria e na análise das propriedades estatísticas dessas combinações. Ele oferece funcionalidades para contar quantas vezes determinadas combinações foram sorteadas em loterias anteriores e gera combinações com base nos números sorteados com mais frequência, distribuições pares-ímpares e padrões de repetição.
 
-## Files
+## Arquivos
 
-- `lotofacil.py`: Python script with the main functionalities of the project.
-- `README.md`: Overview of the project.
-- `requirements.txt`: Dependencies needed to run the project.
+- `lotofacil.py`: Script Python com as principais funcionalidades do projeto.
+- `README.md`: Visão geral do projeto.
+- `requirements.txt`: Dependências necessárias para executar o projeto.
 
-## How to run
+## Como executar
 
-Make sure to have Python installed, and install the necessary dependencies by running:
+Certifique-se de ter o Python instalado e instale as dependências necessárias executando:
 
 ```bash
 pip install -r requirements.txt
+
