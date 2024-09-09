@@ -107,7 +107,7 @@ def contar_caracteristicas(comb):
 # Carregue os resultados do arquivo CSV
 resultados = []
 
-with open(r"C:\Users\leeof\OneDrive\Documents\Documentos\lotofacilatual1.csv", 'r') as arquivo:
+with open(r"C:\localizaçãodoarquivo\lotofacilatual1.csv", 'r') as arquivo:
     linhas = csv.reader(arquivo)
     for linha in linhas:
         resultado = ",".join(linha)
@@ -166,4 +166,4 @@ for i, combinacao in enumerate(combinacoes, start=1):
 df = pd.DataFrame(data, columns=["Combinação", "Dezenas", "12 Dezenas", "13 Dezenas", "14 Dezenas", "15 Dezenas", "Pares", "Ímpares", "Fibonacci", "Repetições", "Dezenas Não Sorteadas (Últimos 3)", "Dezenas Mais Sorteadas (Últimos 20)"])
 
 # Exporte o DataFrame para um arquivo CSV
-df.to_csv(r"C:\Users\leeof\OneDrive\Documents\Documentos\lotofacil_info67.csv", index=False)
+df.to_csv(r"C:\pastaondeserá salvo o arquivo\lotofacil_info.csv", index=False)
